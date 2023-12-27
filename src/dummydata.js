@@ -50,7 +50,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de John Smith",
-        totalTime: "50 Lições/aulas (190 hrs)",
+        totalTime: "50 Lições (190 hrs)",
       },
     ],
     priceAll: " R$ 100 P/ todos os cursos",
@@ -64,7 +64,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Ram Gurung",
-        totalTime: "30 Lições/aulas (125 hrs)",
+        totalTime: "30 Lições (125 hrs)",
       },
     ],
     priceAll: " R$ 200 P/ todos os cursos",
@@ -78,7 +78,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Saroj Nepal",
-        totalTime: "50 Lições/aulas (50 hrs)",
+        totalTime: "50 Lições (50 hrs)",
       },
     ],
     priceAll: " R$ 50 P/ todos os cursos",
@@ -92,7 +92,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Prabin Thapa Mager",
-        totalTime: "20 Lições/aulas (20 hrs)",
+        totalTime: "20 Lições (20 hrs)",
       },
     ],
     priceAll: " R$ 30 P/ todos os cursos",
@@ -106,7 +106,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Sunil Bishowkaram",
-        totalTime: "100 Lições/aulas (150 hrs)",
+        totalTime: "100 Lições (150 hrs)",
       },
     ],
     priceAll: " R$ 300 P/ todos os cursos",
@@ -120,7 +120,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Sunil Bishowkaram",
-        totalTime: "200 Lições/aulas (300 hrs)",
+        totalTime: "200 Lições (300 hrs)",
       },
     ],
     priceAll: " R$ 500 P/ todos os cursos",
@@ -134,7 +134,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Price",
-        totalTime: "20 Lições/aulas (50 hrs)",
+        totalTime: "20 Lições (50 hrs)",
       },
     ],
     priceAll: " R$ 20 P/ todos os cursos",
@@ -148,7 +148,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Petter",
-        totalTime: "80 Lições/aulas (200 hrs)",
+        totalTime: "80 Lições (200 hrs)",
       },
     ],
     priceAll: " R$ 200 P/ todos os cursos",
@@ -162,7 +162,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "Por/de Petter",
-        totalTime: "50 Lições/aulas (50 hrs)",
+        totalTime: "50 Lições (50 hrs)",
       },
     ],
     priceAll: " R$ 20 P/ todos os cursos",
