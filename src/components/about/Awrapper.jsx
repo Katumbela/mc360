@@ -1,28 +1,40 @@
-import React from "react"
-import { awrapper } from "../../dummydata"
+import React from "react";
+import { awrapper } from "../../dummydata";
+import mc from "../../images/mc.png";
+import arotec from "../../images/icone.png";
 
 const Awrapper = () => {
   return (
     <>
-      <section className='awrapper'>
-        <div className='container grid'>
+      <section className="awrapper">
+        <div className="container grid">
           {awrapper.map((val) => {
             return (
-              <div className='box my-auto d-flex flex'>
-                <div className='img my-auto'>
-                  <img src={val.cover} alt='' />
+              <div className="box my-auto d-flex flex">
+                <div className="img my-auto">
+                  <img src={val.cover} alt="" />
                 </div>
-                <div className='text mt-2 my-auto'>
+                <div className="text mt-2 my-auto">
                   <h1>{val.data}</h1>
                   <h3>{val.title}</h3>
                 </div>
               </div>
-            )
+            );
           })}
         </div>
       </section>
-    </>
-  )
-}
+      <br />
 
-export default Awrapper
+      <section className="partner mt-3">
+        <div className="d-flex justify-content-center gap-3">
+          <img src={mc} alt="" className="logo my-auto" />
+          <img src={arotec} alt="" className="logo2 my-auto" />
+        </div>
+      </section>
+      <br />
+      <br />
+    </>
+  );
+};
+
+export default Awrapper;

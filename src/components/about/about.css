@@ -89,3 +89,12 @@
     height: 45vh;
   }
 }
+
+
+.partner .logo {
+  height: 5em !important;
+}
+.partner .logo2 {
+  height: 2.5rem;
+  width: 12em !important;
+}
