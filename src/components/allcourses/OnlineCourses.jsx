@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react"
 import "./courses.css"
-import "bootstrap"
 
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"

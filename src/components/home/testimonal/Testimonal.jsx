@@ -36,7 +36,7 @@ const Testimonal = () => {
     <>
       <section className="testimonal padding">
         <div className="container">
-          <Heading subtitle="TESTIMONIAL" title="Our Successful Students" />
+          <Heading subtitle="TESTEMUNHAS" title="Nossos estudantes de Sucesso" />
 
           <div className="content grid2">
            
