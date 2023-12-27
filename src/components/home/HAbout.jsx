@@ -3,6 +3,7 @@ import OnlineCourses from "../allcourses/OnlineCourses"
 import Heading from "../common/heading/Heading"
 import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
+import Slide from "react-reveal/Slide"
 
 const HAbout = () => {
   return (
@@ -15,7 +16,8 @@ const HAbout = () => {
             {/* copy code form  coursesCard */}
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => (
-                <div className='items'>
+               <Slide bottom >
+                 <div className='items'>
                   <div className='content flex'>
                     <div className='left'>
                       <div className='img'>
@@ -54,6 +56,7 @@ const HAbout = () => {
                   </div>
                   <button className='outline-btn btn-sm btn py-2 rounded-pill text-uppercase'>inscreva-te agora!</button>
                 </div>
+               </Slide>
               ))}
             </div>
           </div>

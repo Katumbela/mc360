@@ -2,6 +2,7 @@ import React from "react";
 import { awrapper } from "../../dummydata";
 import mc from "../../images/mc.png";
 import arotec from "../../images/icone.png";
+import Bounce from 'react-reveal/Bounce'
 
 const Awrapper = () => {
   return (
@@ -26,10 +27,12 @@ const Awrapper = () => {
       <br />
 
       <section className="partner mt-3">
-        <div className="d-flex justify-content-center gap-3">
-          <img src={mc} alt="" className="logo my-auto" />
-          <img src={arotec} alt="" className="logo2 my-auto" />
-        </div>
+        <Bounce>
+          <div className="d-flex justify-content-center gap-3">
+            <img src={mc} alt="" className="logo my-auto" />
+            <img src={arotec} alt="" className="logo2 my-auto" />
+          </div>
+        </Bounce>
       </section>
       <br />
       <br />

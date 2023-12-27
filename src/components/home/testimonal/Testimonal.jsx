@@ -2,6 +2,7 @@ import React from "react";
 import { testimonal } from "../../../dummydata";
 import Heading from "../../common/heading/Heading";
 import "./style.css";
+import Slide from 'react-reveal/Slide'
 // import OwlCarousel from "react-owl-carousel";
 // import "owl.carousel/dist/assets/owl.carousel.css";
 // import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -37,11 +38,12 @@ const Testimonal = () => {
       <section className="testimonal padding">
         <div className="container">
           <Heading subtitle="TESTEMUNHAS" title="Nossos estudantes de Sucesso" />
-
+  <Slide left>
+             
           <div className="content grid2">
            
               {testimonal.map((val) => (
-                <div className="items shadow">
+                 <div className="items shadow">
                   <div className="position-relative w-100 flex">
                     <div className="img">
                       <img src={val.cover} alt="" />
@@ -54,8 +56,9 @@ const Testimonal = () => {
                   </div>
                   <p>{val.desc}</p>
                 </div>
+             
               ))}
-          </div>
+          </div> </Slide>
         </div>
       </section>
     </>

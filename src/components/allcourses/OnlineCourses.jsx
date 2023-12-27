@@ -4,6 +4,7 @@ import "./courses.css"
 
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
+import Zoom from 'react-reveal/Zoom'
 
 const OnlineCourses = () => {
   return (
@@ -11,9 +12,10 @@ const OnlineCourses = () => {
       <section className='online'>
         <div className='container'>
           <Heading subtitle='CURSOS' title='Navegue Por Nossos Cursos On-Linees' />
-          <div className='content justify-content-center d-flex gap-4 flex-wrap'>
+            <Zoom bottom cascade>
+             <div className='content justify-content-center d-flex gap-4 flex-wrap'>
             {online.map((val) => (
-              <div className='box'>
+               <div className='box'>
                 <div className='img'>
                   <img src={val.cover} />
                   <img src={val.hoverCover} alt='' className='show' />
@@ -23,6 +25,7 @@ const OnlineCourses = () => {
               </div>
             ))}
           </div>
+              </Zoom>
         </div>
         <br />
         <br />

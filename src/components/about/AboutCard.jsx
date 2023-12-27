@@ -3,6 +3,7 @@ import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
+import Slide from 'react-reveal/Slide'
 
 const AboutCard = () => {
   return (
@@ -17,7 +18,8 @@ const AboutCard = () => {
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
-                  <div className='item flexSB'>
+              <Slide right>
+                    <div className='item flexSB'>
                     <div className='img'>
                       <img src={val.cover} alt='' />
                     </div>
@@ -26,6 +28,7 @@ const AboutCard = () => {
                       <p>{val.desc}</p>
                     </div>
                   </div>
+              </Slide>
                 )
               })}
             </div>

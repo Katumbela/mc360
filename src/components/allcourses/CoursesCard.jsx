@@ -1,6 +1,8 @@
 import React from "react"
 import "./courses.css"
 import { coursesCard } from "../../dummydata"
+import Slide from "react-reveal/Slide"
+
 
 const CoursesCard = () => {
   return (
@@ -8,7 +10,8 @@ const CoursesCard = () => {
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
-            <div className='items'>
+         <Slide bottom>
+             <div className='items'>
               <div className='content flex'>
                 <div className='left'>
                   <div className='img'>
@@ -40,6 +43,7 @@ const CoursesCard = () => {
               </div>
               <button className='outline-btn text-uppercase'>Inscreva-se agora!</button>
             </div>
+         </Slide>
           ))}
         </div>
       </section>
