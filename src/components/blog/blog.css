@@ -7,7 +7,7 @@
 }
 .blog h1 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
   margin: 20px 0;
   transition: 0.5s;
@@ -24,11 +24,15 @@
 .blog span label {
   margin-left: 10px;
   color: grey;
-  font-size: 14px;
+  font-size: 10px;
+}
+.blog span i {
+  font-size: 10px;
 }
 .blog span:nth-last-child(1) label {
   color: #1eb2a6;
 }
 .blog p {
   color: grey;
+  font-size: 14px;
 }

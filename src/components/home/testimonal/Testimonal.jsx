@@ -42,7 +42,7 @@ const Testimonal = () => {
            
               {testimonal.map((val) => (
                 <div className="items shadow">
-                  <div className="box flex">
+                  <div className="position-relative w-100 flex">
                     <div className="img">
                       <img src={val.cover} alt="" />
                       <i className="fa fa-quote-left icon"></i>

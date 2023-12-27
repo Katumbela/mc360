@@ -1,6 +1,6 @@
-import React from "react"
-import { blog } from "../../../dummydata"
-import "./footer.css"
+import React from "react";
+import { blog } from "../../../dummydata";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -8,94 +8,76 @@ const Footer = () => {
       <section className="newletter">
         <div className="container flexSB">
           <div className="left row">
-            <h1>Newsletter - Stay tune and get the latest update</h1>
-            <span>Far far away, behind the word mountains</span>
+            <h1>Newsletter - Fique ligado e obtenha as últimas atualizações</h1>
+            <span>Bem, bem longe, atrás das montanhas das palavras</span>
           </div>
+
           <div className="right row">
             <input type="text" placeholder="Enter email address" />
             <i className="fa fa-paper-plane"></i>
           </div>
         </div>
       </section>
-      <footer>
-        <div className="container padding">
-          <div className="box logo">
-            <h1>Eduscope</h1>
-            <span>OnlineE Education & Learning Platform</span>
+      <footer className="container-fluit">
+    <div className="container-fluid">
+    <div className=" row mx-auto w-100 m padding">
+          <div className="box col-12 col-md-3 logo">
+            <h1>MC360</h1>
+            <span>Plataforma de Educação Online e Aprendizado</span>
             <p>
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia.
+              Um pequeno rio chamado Duden flui por esse lugar e o abastece com
+              a regelialia necessária.
             </p>
 
             <i className="fab fa-facebook-f icon"></i>
             <i className="fab fa-twitter icon"></i>
             <i className="fab fa-instagram icon"></i>
           </div>
-          <div className="box link">
+          <div className="box col-12 col-md-3 link">
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
+              <li>Sobre Nós</li>
+              <li>Serviços</li>
+              <li>Cursos</li>
               <li>Blog</li>
-              <li>Contact us</li>
+              <li>Entre em Contato</li>
             </ul>
           </div>
-          <div className="box link">
-            <h3>Quick Links</h3>
+          <div className="box col-12 col-md-3 link">
+            <h3>Links Rápidos</h3>
             <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
+              <li>Entre em Contato</li>
+              <li>Preços</li>
+              <li>Termos e Condições</li>
+              <li>Privacidade</li>
               <li>Feedbacks</li>
             </ul>
           </div>
-          <div className="box">
-            <h3>Recent Post</h3>
-            {blog.slice(0, 3).map((val) => (
-              <div className="items flexSB">
-                <div className="img">
-                  <img src={val.cover} alt="" />
-                </div>
-                <div className="text">
-                  <span>
-                    <i className="fa fa-calendar-alt"></i>
-                    <label htmlFor="">{val.date}</label>
-                  </span>
-                  <span>
-                    <i className="fa fa-user"></i>
-                    <label htmlFor="">{val.type}</label>
-                  </span>
-                  <h4>{val.title.slice(0, 40)}...</h4>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="box last">
-            <h3>Have a Questions?</h3>
+
+          <div className="box col-12 col-md-3 last">
+            <h3>Dúvidas?</h3>
             <ul>
               <li>
                 <i className="fa fa-map"></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+               Talatona, Luanda - Angola
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
-                +2 392 3929 210
-              </li>
+                +244 912 392 3929              </li>
               <li>
                 <i className="fa fa-paper-plane"></i>
-                info@yourdomain.com
+                info@arotec.ao
               </li>
             </ul>
           </div>
         </div>
+    </div>
       </footer>
       <div className="legal">
-        <p>Thirosh Madhusha Copyright ©2022 All rights reserved.</p>
+        <p>MC360 Copyright ©2022 All rights reserved.</p>
       </div>
     </>
   );
-}
+};
 
-export default Footer
+export default Footer;

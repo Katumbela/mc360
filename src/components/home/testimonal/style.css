@@ -3,35 +3,41 @@
   transition: 0.5s;
 }
 
-.testimonal .img {
+.testimonal .name {
   position: relative;
 }
 .testimonal img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .testimonal i {
   position: absolute;
-  bottom: 0;
-  left: 60px;
+  bottom: -1.9rem;
+  font-size: 10px!important;
+  right: 0;
+  top: 0;
   background-color: #1eb2a6;
   color: #fff;
 }
 .testimonal .name {
-  margin: 25px;
+  margin: 10px;
+  width: 100%;
 }
 .testimonal .name h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 5px;
+  width: 100%;
 }
 .testimonal .name span {
   color: #1eb2a6;
+  font-size: 12px;
 }
 .testimonal p {
   margin-top: 20px;
   color: grey;
   transition: 0.5s;
+  font-size: 15px;
 }
 .testimonal .items:hover {
   background-color: #1eb2a6;

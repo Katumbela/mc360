@@ -28,21 +28,19 @@ const HAbout = () => {
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
                         <label htmlFor=''>(5.0)</label>
                       </div>
                       <div className='details'>
                         {val.courTeacher.map((details) => (
                           <>
-                            <div className='box'>
+                            {/* <div className='w-100 d-flex'>
                               <div className='dimg'>
                                 <img src={details.dcover} alt='' />
                               </div>
                               <div className='para'>
                                 <h4>{details.name}</h4>
                               </div>
-                            </div>
+                            </div> */}
                             <span>{details.totalTime}</span>
                           </>
                         ))}
@@ -54,7 +52,7 @@ const HAbout = () => {
                       {val.priceAll} / {val.pricePer}
                     </h3>
                   </div>
-                  <button className='outline-btn text-uppercase'>inscreva-te agora!</button>
+                  <button className='outline-btn btn-sm btn py-2 rounded-pill text-uppercase'>inscreva-te agora!</button>
                 </div>
               ))}
             </div>

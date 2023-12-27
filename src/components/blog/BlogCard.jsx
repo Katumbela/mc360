@@ -5,7 +5,7 @@ const BlogCard = () => {
   return (
     <>
       {blog.map((val) => (
-        <div className='items shadow'>
+        <div className='items blogg shadow'>
           <div className='img'>
             <img src={val.cover} alt='' />
           </div>
