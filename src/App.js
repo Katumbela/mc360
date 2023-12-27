@@ -2,7 +2,7 @@ import React from 'react';  // Adicione esta linha
 
 import "./App.css";
 import Header from "./components/common/header/Header";
-import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
