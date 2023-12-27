@@ -290,22 +290,22 @@ export const team = [
 export const price = [
   {
     name: "PLANO BÁSICO",
-    price: "49K",
+    price: "49",
     desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
     name: "PLANO INICIANTE",
-    price: "79K",
+    price: "79",
     desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
     name: "PLANO PREMIUM",
-    price: "109K",
+    price: "109",
     desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
     name: "PLANO ULTIMATE",
-    price: "149K",
+    price: "149",
     desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
 ];
