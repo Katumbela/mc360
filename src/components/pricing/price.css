@@ -1,10 +1,10 @@
 .price .items {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 .price h1 {
   font-size: 50px;
-  margin: 20px 0;
+  margin: 10px 0;
   color: #1eb2a6;
 }
 .price h1 span {
@@ -14,8 +14,28 @@
 }
 .price p {
   color: grey;
-  margin: 40px 0;
+  margin: 15px 0;
 }
+
+.benefitss {
+  position: sticky;
+  top: 0;
+}
+
+.benefitss h3 {
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.benefitss li {
+  font-size: 14px !important;
+  line-height: 15px;
+  margin: .5rem 0;
+  list-style-type: square;
+}
+
+
+
 /*--------------faq-------------*/
 .faq .container {
   max-width: 70%;
@@ -48,3 +68,45 @@
 }
 
 /*--------------faq-------------*/
+/* 
+Pacote escola pública
+Acesso a 5 aulas gravadas de inglês básico
+Materiais didáticos complementares
+Fórum de comunidade online
+Preço: R$ 23,00 por mês
+1. "Desbravador"
+Pacote Empresarial
+Pacote periferia
+Acesso ilimitado a aulas gravadas de inglês
+intermediário.
+2 aulas ao vivo por mês com instrutores
+nativos em grupo.
+Material exclusivo para prática diária
+Fórum exclusivo de networking
+Preço: R$ 68,00 por mês
+2. "Explorador"
+Pacote efetivado
+Acesso ilimitado a todas as aulas gravadas e ao vivo
+10 aulas particulares por ano
+Acesso prioritário a eventos presenciais (quando
+disponíveis)
+Certificado de conclusão premium
+Preço: R$ 150,00 por mês
+4. "Conquistador"
+Pacote estagiario
+Acesso a todas as aulas gravadas, de básico
+a avançado
+5 aulas ao vivo por mês com instrutores
+nativos
+Materiais avançados e exercícios práticos
+Acesso exclusivo a eventos especiais
+Preço: R$ 100,00 por mês
+3. "Aventureiro"
+Acesso corporativo para até 10 funcionários
+Personalização de conteúdo para
+necessidades empresariais
+Sessões de treinamento exclusivas para a
+equipe
+Relatórios de progresso e desempenho
+Preço: A partir de R$ 2000,00 por mês
+(valor por funcionário) */

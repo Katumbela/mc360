@@ -10,11 +10,11 @@ const AboutCard = () => {
     <>
       <section className='aboutHome'>
         <div className='container flexSB'>
-          <div className='left row'>
+          <div className='left '>
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='APRENDA QUALQUER COISA' title='Benefícios Da Experiência Em Aprendizagem Online' />
+            <Heading subtitle='' title='Benefícios Da Experiência Em Intercambio Online' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (

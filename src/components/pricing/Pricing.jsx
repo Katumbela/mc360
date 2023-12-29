@@ -8,8 +8,8 @@ const Pricing = () => {
   return (
     <>
       <Back title='Escolha o Plano Certo' />
-      <section className='price padding'>
-        <div className='container grid'>
+      <section className='price container padding'>
+        <div className=' row '>
           <PriceCard />
         </div>
       </section>

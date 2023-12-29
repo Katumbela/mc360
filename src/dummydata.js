@@ -2,22 +2,24 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Cursos Online",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países.",
+    title: "MISSÃO",
+    desc: "promover a inclusão de individuos de todas as camadas sociais, garantindo que a educação seja uma ferramenta de transformação par... ",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Ganhe certificados",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países.",
+    title: "VISÃO",
+    desc: "Tornar-se, nos próximos três anos, a plataforma de idiomas mais inclusiva e abrigar a maior comunidade de aprendizado de inglês no Brasil.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Aprenda com Especialista",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países.",
+    title: "OBJECTIVO",
+    desc: "Democratizar o acesso à educação de qualidade, focando no ensino de idiomas, e contribuir para a formação de lideres conscientes e engajados.",
   },
 ]
+
+
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
@@ -289,24 +291,36 @@ export const team = [
 
 export const price = [
   {
-    name: "PLANO BÁSICO",
+    name: "PACOTE ESCOLA PUBLICA",
     price: "49",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+    desc: "Desbravador"
+    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
-    name: "PLANO INICIANTE",
+    name: "PACOTE PERIFERIA ",
     price: "79",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+    desc: "Explorador",
+    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
-    name: "PLANO PREMIUM",
+    name: "PACOTE EFECTIVADO",
     price: "109",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+    desc: "Conquistador"
+    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
+
   {
-    name: "PLANO ULTIMATE",
+    name: "PACOTE ESTAGIARIO",
+    price: "109",
+    desc: "Aventureiro"
+    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+  },
+
+  {
+    name: "PACOTE EMPRESARIAL",
     price: "149",
-    desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+    desc: "Global Business"
+    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
 ];
 
@@ -336,61 +350,35 @@ export const faq = [
     desc: "Está oculto por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Vale ressaltar que praticamente qualquer HTML pode ser colocado dentro de .accordion-body, embora a transição limite o overflow.",
   },
 ];
-
 export const blog = [
+  // ... outros objetos existentes ...
+
   {
-    id: 1,
-    type: "admin",
-    date: "18 JAN, 2021",
-    com: "3 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
+    id: 7,
+    type: "user",
+    date: "20 FEV, 2023",
+    com: "8 COMENTÁRIOS",
+    title: "Vivendo uma Experiência Inesquecível: Meu Intercâmbio na Europa",
+    desc: "Compartilhando minhas experiências e aprendizados durante o intercâmbio na Europa.",
     cover: "../images/blog/b1.webp",
   },
   {
-    id: 2,
+    id: 8,
     type: "admin",
-    date: "25 API, 2022",
-    com: "5 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
+    date: "05 ABR, 2023",
+    com: "6 COMENTÁRIOS",
+    title: "Dicas para Escolher o Destino Ideal para o Seu Intercâmbio",
+    desc: "Saiba como escolher o destino perfeito para o seu intercâmbio e aproveitar ao máximo.",
     cover: "../images/blog/b2.webp",
   },
   {
-    id: 3,
+    id: 9,
     type: "user",
-    date: "15 MAI, 2022",
-    com: "10 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
+    date: "12 JUN, 2023",
+    com: "15 COMENTÁRIOS",
+    title: "Cultura e Aprendizado: Minha Jornada de Intercâmbio na Ásia",
+    desc: "Explorando a rica cultura asiática e as lições aprendidas durante meu intercâmbio.",
     cover: "../images/blog/b3.webp",
-  },
-  {
-    id: 4,
-    type: "admin",
-    date: "02 JAN, 2022",
-    com: "3 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
-    cover: "../images/blog/b4.webp",
-  },
-  {
-    id: 5,
-    type: "admin",
-    date: "14 DEZ, 2022",
-    com: "3 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
-    cover: "../images/blog/b5.webp",
-  },
-  {
-    id: 6,
-    type: "user",
-    date: "18 JAN, 2021",
-    com: "12 COMENTÁRIOS",
-    title: "Construa sua Carreira dos Sonhos em Software e Engenharia",
-    desc: "Um pequeno rio chamado Duden flui por seu lugar e o abastece com os regelialia necessários.",
-    cover: "../images/blog/b6.webp",
   },
 ];
 
