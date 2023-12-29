@@ -17,13 +17,13 @@ const Hero = () => {
                 <Heading
                   className=""
                   subtitle="BEM-VINDO À MC360"
-                  title="A Melhor Plataforma de Educação Online"
+                  title="A Melhor Plataforma de Intercâmbio Africano"
                 />
               </Flip>
               <Slide left cascade>
                 <p className="p-sm">
-                  Comece, mude ou avance em sua carreira com mais de 3000
-                  cursos, certificados profissionais e diplomas de universidades
+                  Comece, mude ou avance em sua carreira com mais de 30
+                  pprogramas, certificados profissionais e diplomas de universidades
                   e empresas de classe mundial
                 </p>
               </Slide>
