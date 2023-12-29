@@ -34,7 +34,7 @@ const Hero = () => {
                   </button>
                 </Tada>
                 <button className=" d-flex gap-2">
-                  VER CURSO <i className="fa fa-long-arrow-alt-right"></i>
+                  VER PROGRAMAS <i className="fa fa-long-arrow-alt-right"></i>
                 </button>
               </div>
             </div>

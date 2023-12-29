@@ -30,7 +30,7 @@ const Footer = () => {
           <div className=" row mx-auto w-100 m padding">
             <div className="box col-12 col-md-3 logo">
               <h1>MC360</h1>
-              <span>Plataforma de Educação Online e Aprendizado</span>
+              <span>Plataforma de Intercâmbio Africano </span>
               <p>
                 Um pequeno rio chamado Duden flui por esse lugar e o abastece
                 com a regelialia necessária.

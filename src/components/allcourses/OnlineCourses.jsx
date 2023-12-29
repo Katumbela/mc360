@@ -11,9 +11,9 @@ const OnlineCourses = () => {
     <>
       <section className='online'>
         <div className='container'>
-          <Heading subtitle='CURSOS' title='Navegue Por Nossos Cursos On-Linees' />
+          <Heading subtitle='CURSOS DE INTERCÂMBIO' title='Faça intercâmbio na África do Sul' />
             <Zoom bottom cascade>
-             <div className='content justify-content-center d-flex gap-4 flex-wrap'>
+             <div className=' justify-content-center d-flex gap-4 flex-wrap'>
             {online.map((val) => (
                <div className='box'>
                 <div className='img'>
@@ -27,9 +27,6 @@ const OnlineCourses = () => {
           </div>
               </Zoom>
         </div>
-        <br />
-        <br />
-        <br />
         <br />
         
       </section>
