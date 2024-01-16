@@ -69,7 +69,11 @@ const HAbout = () => {
       </section>
 
       <section className="homeAbout">
+
         <div className="bg-white">
+      <br />
+            <br />
+            <br />
           <Heading subtitle="COMUNIDADE MC360" title=" " />
 
           <center>

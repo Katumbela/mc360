@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { price } from "../../dummydata";
+import { NavLink } from "react-router-dom";
 
 const PriceCard = () => {
   const [selectedPackage, setSelectedPackage] = useState(null);
@@ -14,25 +15,27 @@ const PriceCard = () => {
 
   return (
     <>
+    <div className="col-12 col-lg-2"></div>
       {price.map((val, index) => (
         <div
-          className="col-12 position-relative col-sm-6 my-3 col-md-4 col-lg-3"
+          className="col-12 mx-auto position-relative col-sm-6 my-3 col-md-4 col-lg-3"
           key={index}
         >
-          <div className="items w-100 shadow">
+          <div className="items mx-auto w-100 shadow">
             <h4>{val.name}</h4>
             <h1>
               <span>R$</span>
               {val.price}
             </h1>
             <p>{val.desc}</p>
-            <button
+            <NavLink
+              to={'/pacote/'+val.id}
               className="btn-sm btn btn-outline-info outline-btn"
-              onClick={() => showBenefits(index)}
+              // onClick={() => showBenefits(index)}
             >
               VER BENEFÍCIOS
-            </button>
-            {selectedPackage === index && (
+            </NavLink>
+            {/* {selectedPackage === index && (
             <div className="benefitss text-start f-12">
               <h3>Benefícios do Pacote</h3>
               <ul>
@@ -90,10 +93,12 @@ const PriceCard = () => {
                 </button>
               </center>
             </div>
-          )}
+          )} */}
           </div>
         </div>
       ))}
+      
+    <div className="col-12 col-lg-1"></div>
     </>
   );
 };

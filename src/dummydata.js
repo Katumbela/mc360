@@ -248,38 +248,41 @@ export const team = [
 ];
 
 export const price = [
+  // {
+  //   name: "PACOTE ESCOLA PUBLICA",
+  //   price: "49",
+  //   desc: "Desbravador"
+  //   // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+  // },
   {
-    name: "PACOTE ESCOLA PUBLICA",
-    price: "49",
-    desc: "Desbravador"
+    id: 1,
+    name: "PACOTE EXPLORADOR ",
+    price: "200",
+    desc: "Acesso total à plataforma + recursos",
     // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
   {
-    name: "PACOTE PERIFERIA ",
-    price: "79",
-    desc: "Explorador",
-    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
-  },
-  {
-    name: "PACOTE EFECTIVADO",
-    price: "109",
-    desc: "Conquistador"
-    // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
-  },
-
-  {
-    name: "PACOTE ESTAGIARIO",
-    price: "109",
-    desc: "Aventureiro"
+    id: 2,
+    name: "PACOTE GOLD",
+    price: "250",
+    desc: "Domine o Inglês com Suporte Personalizado"
     // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
 
   {
-    name: "PACOTE EMPRESARIAL",
-    price: "149",
-    desc: "Global Business"
+    id: 3,
+    name: "PACOTE PLATINUM",
+    price: "500",
+    desc: "Experiência VIP de Aprendizado"
     // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
   },
+
+  // {
+  //   name: "PACOTE EMPRESARIAL",
+  //   price: "149",
+  //   desc: "Global Business"
+  //   // desc: "Muito, muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, vivem os textos cegos.",
+  // },
 ];
 
 export const faq = [

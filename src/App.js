@@ -11,6 +11,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import Pacote from './components/allcourses/CourseHome';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/"  element={<Home/>} />
           <Route path="/about" exact element={<About/>} />
           <Route path="/courses" exact element={<CourseHome/>} />
+          <Route path="/pacote/:pacote" exact element={<Pacote/>} />
           <Route path="/team" exact element={<Team/>} />
           <Route path="/pricing" exact element={<Pricing/>} />
           <Route path="/journal" exact element={<Blog/>} />
