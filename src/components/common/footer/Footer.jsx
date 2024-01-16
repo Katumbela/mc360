@@ -6,14 +6,78 @@ import Slide from "react-reveal/Slide";
 const Footer = () => {
   return (
     <>
-      <p>
-        Se torne um membro e ajude um jovem a ter acesso a um programa
-        educacional de qualidade. Além disso, tenha acesso aos nossos benefícios
-        exclusivos, como a Academia de Idiomas, a Escola de Comunicação, eventos
-        presenciais e muito mais.
-      </p>
+      <div className="sponso py-5">
+        <section className="sponsor container">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <h2 className="text-white">Jornada membro anjo</h2>
+
+              <p className="fw-light text-white">
+                Se torne um membro e ajude um jovem a ter acesso a um programa
+                educacional de qualidade. Além disso, tenha acesso aos nossos
+                benefícios exclusivos, como a Academia de Idiomas, a Escola de
+                Comunicação, eventos presenciais e muito mais.
+              </p>
+            </div>
+            <div className="col-12 col-md-6">
+              <div className="row">
+                <div className="col-12 col-sm-12 my-2">
+                  <input
+                    type="text"
+                    placeholder="Nome completo"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-6 my-2">
+                  <input
+                    type="text"
+                    placeholder="Telefone"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-6 my-2">
+                  <input
+                    type="text"
+                    placeholder="Area de educação"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-6 my-2">
+                  <input
+                    type="text"
+                    placeholder="Estado"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-6 my-2">
+                  <input
+                    type="text"
+                    placeholder="Cidade"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-12 my-2">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    className="form-control"
+                  />
+                </div>
+                <div className="col-12 col-sm-12 my-2">
+                  <button className="btn primary-btn w-100 rounded-pill">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section className="newletter">
-        <div className="container flexSB">
+        <div className="container row">
+          <div className="col-12 col-md-6 my-2">
+            
           <Slide left cascade>
             <div className="left row">
               <h1>
@@ -22,13 +86,17 @@ const Footer = () => {
               <span>Bem, bem longe, atrás das montanhas das palavras</span>
             </div>
           </Slide>
-
+          </div>
+          <div className="col-12 col-md-6 my-2">
+            
           <Slide right cascade>
-            <div className="right row">
+            <div className="right d-flex gap-2">
               <input type="text" placeholder="Enter email address" />
               <i className="fa fa-paper-plane"></i>
             </div>
           </Slide>
+          </div>
+
         </div>
       </section>
       <footer className="container-fluit">

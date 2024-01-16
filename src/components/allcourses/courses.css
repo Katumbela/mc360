@@ -210,3 +210,7 @@
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
 } 
+
+.head .logo img {
+  height: 4.5em;
+}
