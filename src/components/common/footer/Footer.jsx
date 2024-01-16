@@ -87,11 +87,11 @@ const Footer = () => {
             </div>
           </Slide>
           </div>
-          <div className="col-12 col-md-6 my-2">
+          <div className="col-12 col-md-6 my-auto">
             
           <Slide right cascade>
-            <div className="right d-flex gap-2">
-              <input type="text" placeholder="Enter email address" />
+            <div className="right d-flex gap-2 my-auto">
+              <input type="text" placeholder="Insira seu email" />
               <i className="fa fa-paper-plane"></i>
             </div>
           </Slide>

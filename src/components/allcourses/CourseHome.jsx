@@ -22,7 +22,7 @@ const Pacote = () => {
           <span className="text-secondary f-14">R$ </span>
           {pacEscolhido.price} / mês
         </h3>
-        {pacEscolhido === 1 && (
+        {pacEscolhido.id === 1 && (
           <div className="row">
             <div className="col-12 col-md-8">
               {/* Acesso Total à Plataforma */}
@@ -85,7 +85,115 @@ const Pacote = () => {
             </div>
           </div>
         )}
-        {/* Outros elementos do seu layout aqui */}
+
+        {pacEscolhido.id === 2 && (
+          <>
+            <div className="row">
+              <div className="col-12 col-md-8 ">
+                {/* Benefícios do Pacote Silver e Aulas Particulares Mensais */}
+                <div className="my-4">
+                  <h4>Inclui todos os benefícios do Pacote Silver, além de:</h4>
+                  <ul>
+                    <li>Aulas Particulares Mensais:</li>
+                    <ul>
+                      <li>
+                        Uma aula particular por mês para focar em áreas
+                        específicas de melhoria.
+                      </li>
+                      <li>
+                        Feedback personalizado e plano de estudo adaptado às
+                        necessidades individuais.
+                      </li>
+                    </ul>
+                    <li>Gravações das Aulas:</li>
+                    <ul>
+                      <li>
+                        Acesso às gravações das aulas para revisão e reforço.
+                      </li>
+                      <li>
+                        Flexibilidade para revisitar conceitos-chave no seu
+                        próprio ritmo.
+                      </li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 text-center">
+                <div className="w-100">
+                  <img src={logo} className="w-100 rounded-5" alt="" />
+                </div>
+                <br />
+                <h3>Preparamos o seu futuro para sí</h3>
+
+                <br />
+                <button className="btn primary-btn">
+                  Assinar pacote{" "}
+                  <i className="fa fa-arrow-right text-white"></i>
+                </button>
+              </div>
+            </div>
+          </>
+        )}
+
+        {pacEscolhido.id === 3 && (
+          <>
+            {/* Benefícios do Pacote Gold e Aulas Particulares Semanais */}
+            <div className="row">
+              <div className="col-12 col-md 8">
+                <div className="my-4">
+                  <h4>Inclui todos os benefícios do Pacote Gold, além de:</h4>
+                  <ul>
+                    <li>Aulas Particulares Semanais:</li>
+                    <ul>
+                      <li>
+                        Quatro aulas particulares por mês para uma atenção mais
+                        intensiva.
+                      </li>
+                      <li>
+                        Personalização total do plano de estudo de acordo com
+                        suas metas.
+                      </li>
+                    </ul>
+                    <li>Feedback Contínuo:</li>
+                    <ul>
+                      <li>Feedback regular sobre o desempenho e progresso.</li>
+                      <li>
+                        Sessões de revisão para ajustes e aprimoramentos
+                        constantes.
+                      </li>
+                    </ul>
+                    <li>Material Didático Exclusivo Impresso:</li>
+                    <ul>
+                      <li>
+                        Envio mensal de material didático exclusivo impresso em
+                        sua casa.
+                      </li>
+                      <li>
+                        Apostilas, livros e recursos físicos para uma
+                        experiência de aprendizado tátil.
+                      </li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 text-center">
+                <div className="w-100">
+                  <img src={logo} className="w-100 rounded-5" alt="" />
+                </div>
+                <br />
+                <h3>Preparamos o seu futuro para sí</h3>
+
+                <br />
+                <button className="btn primary-btn">
+                  Assinar pacote{" "}
+                  <i className="fa fa-arrow-right text-white"></i>
+                </button>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </>
   );
