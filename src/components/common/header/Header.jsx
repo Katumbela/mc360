@@ -16,28 +16,30 @@ const Header = () => {
             onClick={() => setClick(false)}
           >
             <li>
-              <Link to="/">Início</Link>
+              <Link to="/">Academia de idiomas </Link>
             </li>
+
             <li>
-              <Link to="/courses">Cursos</Link>
+              <Link to="#">Programa de intercâmbio</Link>
             </li>
+
             <li>
-              <Link to="/about">Sobre</Link>
+              <Link to="/#">Eventos presenciais e online</Link>
             </li>
+
             <li>
-              <Link to="/pricing">Preços</Link>
+              <Link to="/pricing">Comunidade Mc360</Link>
             </li>
+
             <li>
-              <Link to="/journal">Blog</Link>
+              <Link to="/journal">Podcast exclusivo</Link>
             </li>
-            <li>
-              <Link to="/contact">Contactar</Link>
-            </li>
+
           </ul>
-          <div className="start">
+          {/* <div className="start">
               <span className="text-uppercase">Minha Area</span>
           
-          </div>
+          </div> */}
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
               <i className="fa fa-times"> </i>

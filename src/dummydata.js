@@ -10,19 +10,19 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "MISSÃO",
-    desc: "promover a inclusão de individuos de todas as camadas sociais, garantindo que a educação seja uma ferramenta de transformação par... ",
+    desc: "Edtech inspira e capacita a próxima geração de líderes, orientando-os para se tornarem agentes de mudança comprometidos com o bem comum da humanidade.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "VISÃO",
-    desc: "Tornar-se, nos próximos três anos, a plataforma de idiomas mais inclusiva e abrigar a maior comunidade de aprendizado de inglês no Brasil.",
+    desc: "Promovemos os Objetivos de Desenvolvimento Sustentável(ODSs) globalmente, cultivando líderes dedicados a transcender fronteiras e culturas, construindo um futuro melhor para todos.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "OBJECTIVO",
-    desc: "Democratizar o acesso à educação de qualidade, focando no ensino de idiomas, e contribuir para a formação de lideres conscientes e engajados.",
+    desc: "Ao concentrarmos esforços nessas metas, formamos uma comunidade de líderes inspiradores, impulsionando um mundo mais justo, sustentável e equitativo para todos.",
   },
 ]
 
@@ -30,24 +30,25 @@ export const homeAbout = [
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "HISTÓRIAS DE SUCESSO",
+    data: "CURSOS DE INTERCÂMBIO",
+    title: "Cursos de intercambio de inglês",
   },
 
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TUTORES CONFIÁVEIS",
+   
+    cover: "https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-webinar-online-education-icongeek26-glyph-icongeek26.png",
+     data: "LIVE WEBINAR",
+    title: "Encontro da comunidade",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "HORÁRIOS",
+    cover: "https://img.icons8.com/external-jumpicon-glyph-ayub-irawan/32/FFFFFF/external-mentoring-success-jumpicon-(glyph)-jumpicon-glyph-ayub-irawan.png",
+    data: "PROGRAMAS DE MENTORIA",
+    title: "Mentoria para desenvolvimento pessoal",
   },
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "CURSOS",
+    cover: "https://img.icons8.com/glyph-neue/64/FFFFFF/certificate.png",
+    data: "CERTIFICADOS",
+    title: "Horas complementares",
   },
 ]
 export const coursesCard = [

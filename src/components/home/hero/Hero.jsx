@@ -17,7 +17,7 @@ const Hero = () => {
                 <Heading
                   className=""
                   subtitle="BEM-VINDO À MC360"
-                  title="A Melhor Plataforma de Intercâmbio Africano"
+                  title="Melhor e mais completa plataforma de comunicação do Brasil.                  "
                 />
               </Flip>
               <Slide left cascade>

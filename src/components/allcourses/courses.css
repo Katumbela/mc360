@@ -1,6 +1,12 @@
 .coursesCard {
   padding: 50px 0;
 }
+
+.sobre img {
+  height: 18em;
+  /* width: 14em; */
+}
+
 .coursesCard .items {
   background-color: #fff;
   padding: 30px;

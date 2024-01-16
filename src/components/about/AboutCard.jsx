@@ -14,7 +14,7 @@ const AboutCard = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='' title='Benefícios Da Experiência Em Intercambio Online' />
+            {/* <Heading subtitle='' title='Benefícios Da Experiência Em Intercambio Online' /> */}
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
