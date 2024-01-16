@@ -31,9 +31,9 @@ const HAbout = () => {
         </div>
       </section>
       <section className="sobre pt-4 bg-white">
-      <br />
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
         <div className="container">
           <div className="row flex-row-reverse">
             <div className="col-12 col-md-6 text-center">
@@ -63,15 +63,31 @@ const HAbout = () => {
         <div className="bg-white">
           <Heading subtitle="COMUNIDADE MC360" title=" " />
 
+          <center>
+            <p className="w-75 fw-thin fw-light f-reg">
+              <b className="text-primary2">"</b> Se você está nos anos finais da
+              escola e busca o primeiro emprego, ou se está em busca de
+              recolocação no mercado de trabalho, ou ainda, se deseja fazer
+              transição de carreira, a "Minha Carreira 360°" é perfeita para
+              você! Nós estamos aqui para ajudá-lo a alcançar seu potencial
+              máximo e, assim, inspirar outras pessoas ao seu redor.{" "}
+              <b className="text-primary2">"</b>
+            </p>
+          </center>
+
           <div className="coursesCard container bg-white">
             {/* copy code form  coursesCard */}
             <div className="row">
               <div className="col-12 col-sm-6">
                 <div className="my-auto">
-                  <h2>Confie Na MC360</h2>
+                  <h2>Comunidade MC360</h2>
                   <Slide bottom>
                     <p>
-                    não perca mais tempo e venha fazer parte da nossa comunidade! Conte conosco para dar o suporte necessário em sua jornada profissional. Estamos aqui para ajudá-lo a alcançar seus sonhos e objetivos. Juntos, podemos construir um futuro de sucesso
+                      Não perca mais tempo e venha fazer parte da nossa
+                      comunidade! Conte conosco para dar o suporte necessário em
+                      sua jornada profissional. Estamos aqui para ajudá-lo a
+                      alcançar seus sonhos e objetivos. Juntos, podemos
+                      construir um futuro de sucesso
                     </p>
                   </Slide>
                   <Slide bottom cascade>
