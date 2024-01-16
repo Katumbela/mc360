@@ -71,9 +71,7 @@ const HAbout = () => {
                   <h2>Confie Na MC360</h2>
                   <Slide bottom>
                     <p>
-                      Criamos um ambiente digital vibrante para que os membros
-                      da comunidade possam trocar experiências, tirar dúvidas e
-                      promover a colaboração.
+                    não perca mais tempo e venha fazer parte da nossa comunidade! Conte conosco para dar o suporte necessário em sua jornada profissional. Estamos aqui para ajudá-lo a alcançar seus sonhos e objetivos. Juntos, podemos construir um futuro de sucesso
                     </p>
                   </Slide>
                   <Slide bottom cascade>
