@@ -17,7 +17,7 @@
   font-size: 10px!important;
   right: 0;
   top: 0;
-  background-color: #1eb2a6;
+  background-color: #229d9d;
   color: #fff;
 }
 .testimonal .name {
@@ -30,7 +30,7 @@
   width: 100%;
 }
 .testimonal .name span {
-  color: #1eb2a6;
+  color: #229d9d;
   font-size: 12px;
 }
 .testimonal p {
@@ -40,7 +40,7 @@
   font-size: 15px;
 }
 .testimonal .items:hover {
-  background-color: #1eb2a6;
+  background-color: #229d9d;
   color: #fff;
   cursor: pointer;
 }
@@ -50,5 +50,5 @@
 }
 .testimonal .items:hover i {
   background-color: #fff;
-  color: #1eb2a6;
+  color: #229d9d;
 }

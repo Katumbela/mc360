@@ -16,7 +16,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #1eb2a6;
+  background-color: #229d9d;
   padding: 15px;
 }
 .coursesCard img {
@@ -35,7 +35,7 @@
 }
 .coursesCard .rate {
   margin: 20px 0;
-  color: #1eb2a6;
+  color: #229d9d;
 }
 .coursesCard .rate i {
   font-size: 13px;
@@ -53,7 +53,7 @@
   color: grey;
 }
 .coursesCard .details span {
-  color: #1eb2a6;
+  color: #229d9d;
   font-weight: 500;
   font-size: 14px;
 }
@@ -67,7 +67,7 @@
 }
 .coursesCard h3 {
   font-weight: 500;
-  color: #1eb2a6;
+  color: #229d9d;
 }
 /*-------------online---------*/
 .online {
@@ -103,14 +103,14 @@
   padding: 5px 20px;
   font-weight: 500;
   font-size: 15px;
-  color: #1eb2a6;
+  color: #229d9d;
   border-radius: 5px;
 }
 .online .box .show {
   opacity: 0;
 }
 .online .box:hover {
-  background-color: #1eb2a6;
+  background-color: #229d9d;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -213,4 +213,31 @@
 
 .head .logo img {
   height: 4.5em;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.f-16 {
+  font-size: 16px;
+}
+.f-18 {
+  font-size: 18px;
+}
+
+.pacote  ul li {
+  list-style-type: square !important;
+  margin-top: 1rem;
+  font-weight: 200!important;
+}
+
+.pacote h3 {
+  color: #229d9d   ;
+}
+.pacote h4 {
+  font-size: 18px;
+  color: #000424   ;
 }
