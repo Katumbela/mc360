@@ -6,6 +6,12 @@ import Slide from "react-reveal/Slide";
 const Footer = () => {
   return (
     <>
+      <p>
+        Se torne um membro e ajude um jovem a ter acesso a um programa
+        educacional de qualidade. Além disso, tenha acesso aos nossos benefícios
+        exclusivos, como a Academia de Idiomas, a Escola de Comunicação, eventos
+        presenciais e muito mais.
+      </p>
       <section className="newletter">
         <div className="container flexSB">
           <Slide left cascade>
@@ -18,10 +24,10 @@ const Footer = () => {
           </Slide>
 
           <Slide right cascade>
-          <div className="right row">
-            <input type="text" placeholder="Enter email address" />
-            <i className="fa fa-paper-plane"></i>
-          </div>
+            <div className="right row">
+              <input type="text" placeholder="Enter email address" />
+              <i className="fa fa-paper-plane"></i>
+            </div>
           </Slide>
         </div>
       </section>
