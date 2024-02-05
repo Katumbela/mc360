@@ -5,7 +5,7 @@ import "../allcourses/courses.css";
 import { coursesCard } from "../../dummydata";
 import Slide from "react-reveal/Slide";
 import bann3 from "../../images/bann3.png";
-import s1 from "../../images/imgh.png";
+import s1 from "../../images/img_2.png";
 import s2 from "../../images/imgh2.png";
 import { Fade } from "react-reveal";
 import { NavLink } from "react-router-dom";
@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 const HAbout = () => {
   return (
     <>
-      <section className="sobre container">
+      <section className="sobre py-4 container">
         <div className="row">
           <div className="col-12 col-md-6 text-center">
            <Slide left>
