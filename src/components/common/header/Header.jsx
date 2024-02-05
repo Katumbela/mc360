@@ -1,16 +1,20 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Head from "./Head";
 import "./header.css";
+import logo from "../../../images/logo4.png";
 
 const Header = () => {
   const [click, setClick] = useState(false);
 
   return (
     <>
-      <Head />
+      {/* <Head /> */}
       <header>
-        <nav className="flexSB">
+        <nav className="flexSB headder">
+          <NavLink to={'/'} className="logo">
+            <img src={logo} alt="" />
+          </NavLink>
           <ul
             className={click ? "mobile-nav" : "flexSB my-auto"}
             onClick={() => setClick(false)}
@@ -20,7 +24,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to="#">Programa de intercâmbio</Link>
+              <Link to="/intercambio">Programa de intercâmbio</Link>
             </li>
 
             <li>
@@ -28,13 +32,12 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to="/pricing">Comunidade Mc360</Link>
+              <a href="/#comunidade">Comunidade Mc360</a>
             </li>
 
             <li>
               <Link to="/journal">Podcast exclusivo</Link>
             </li>
-
           </ul>
           {/* <div className="start">
               <span className="text-uppercase">Minha Area</span>

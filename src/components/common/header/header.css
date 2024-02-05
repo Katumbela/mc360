@@ -12,9 +12,18 @@
 }
 /*--------head------------*/
 /*--------header------------*/
+
+.headder .logo img {
+  height: 4em;
+}
+
+.headder {
+   display: flex;
+   padding: 1rem ;
+}
 header {
-  background-color: rgba(255, 255, 255, 0.676);
-  margin: 0 30px;
+  background-color: #ffffff;
+  margin: 0 px;
 }
 header .nav {
   display: flex !important;
@@ -33,6 +42,8 @@ header ul li a {
 }
 header ul li a:hover {
   color: #229d9d;
+  transform: scale(1.1)!important;
+  transition: all .3s ease;
 }
 .start {
   background-color: #229d9d;

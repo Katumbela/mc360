@@ -156,7 +156,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="legal">
-        <p>MC360 Copyright ©2022 All rights reserved.</p>
+        <p>MC360 Copyright © 2024 All rights reserved.</p>
       </div>
     </>
   );

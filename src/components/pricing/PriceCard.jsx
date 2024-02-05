@@ -15,13 +15,12 @@ const PriceCard = () => {
 
   return (
     <>
-    <div className="col-12 col-lg-2"></div>
       {price.map((val, index) => (
         <div
-          className="col-12 mx-auto position-relative col-sm-6 my-3 col-md-4 col-lg-3"
+          className="mx-auto position-relative "
           key={index}
         >
-          <div className="items mx-auto w-100 shadow">
+          <div className="items itt mx-auto w-100 shadow">
             <h4>{val.name}</h4>
             <h1>
               <span>R$</span>
@@ -98,7 +97,6 @@ const PriceCard = () => {
         </div>
       ))}
       
-    <div className="col-12 col-lg-1"></div>
     </>
   );
 };

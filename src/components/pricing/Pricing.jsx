@@ -9,7 +9,7 @@ const Pricing = () => {
     <>
       <Back title='Escolha o Plano Certo' />
       <section className='price container padding'>
-        <div className=' row '>
+        <div className='flex-wrap gap-4 d-flex justify-content-center '>
           <PriceCard />
         </div>
       </section>

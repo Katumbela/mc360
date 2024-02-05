@@ -7,7 +7,7 @@ import Bounce from "react-reveal/Bounce";
 const Blog = () => {
   return (
     <>
-      <Back title="Posts do Blog" />
+      <Back title="Podcasts Exclusivos" />
       <section className="blog padding">
         <div className="container grid2">
           <BlogCard />

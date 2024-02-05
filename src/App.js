@@ -22,7 +22,7 @@ function App() {
           <Route path="/courses" exact element={<CourseHome/>} />
           <Route path="/pacote/:pacote" exact element={<Pacote/>} />
           <Route path="/team" exact element={<Team/>} />
-          <Route path="/pricing" exact element={<Pricing/>} />
+          <Route path="/intercambio" exact element={<Pricing/>} />
           <Route path="/journal" exact element={<Blog/>} />
           <Route path="/contact" exact element={<Contact/>} />
       </Routes>
